@@ -24,8 +24,7 @@ The app is built around four cooperating phases (see the architecture diagram be
 - 🔒 **Privacy-conscious by design** — no data persistence beyond the session by default; see [Security & Privacy](#security--privacy).
 
 ## Technical Architecture
-
-![Technical architecture diagram showing four phases: patient voice and image capture, speech-to-text, vision model and LLM response, and text-to-speech](docs/architecture.svg)
+<img width="1316" height="722" alt="image" src="https://github.com/user-attachments/assets/d3d214ab-21b8-4168-8971-c437f5c4ffb8" />
 
 ### Phase 1 — Vision Model & LLM Response
 The uploaded image (or an extracted video frame) is sent — together with the transcribed patient query — to a **vision-capable LLM (Groq)**. The model returns a structured, doctor-style written response: possible explanations, general care guidance, and red flags that warrant seeing a real clinician.
